@@ -1,3 +1,4 @@
+import Logo from './image/Steel_Authority_of_India_logo.png'
 import React, { useState } from "react";
 
 const SignIn = ({ onSignIn }) => {
@@ -15,11 +16,12 @@ const SignIn = ({ onSignIn }) => {
   return (
     <div className="center-box">
       <div style={{ textAlign: "center" }}>
-      <img
-          src="../image/Steel_Authority_of_India_logo.svg.png"
-          alt="SAIL Logo"
+   <img
+          src={Logo}
+          alt="SAIL"
           style={{ width: "80px", marginBottom: "20px" }}
         />
+
 
       </div>
       <form onSubmit={handleSubmit}>

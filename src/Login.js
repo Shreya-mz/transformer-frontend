@@ -1,4 +1,4 @@
-
+import Logo from './image/Steel_Authority_of_India_logo.png'
 import React, { useState } from "react";
 const Login = ({ onLogin, onSwitch }) => {
   const [formData, setFormData] = useState({ email: "", password: "" });
@@ -11,7 +11,8 @@ const Login = ({ onLogin, onSwitch }) => {
   return (
     <div className="bg-white p-6 rounded shadow-md w-96">
       <div className="flex justify-center mb-4">
-        <img src="../image/Steel_Authority_of_India_logo.svg.png" alt="SAIL Logo" className="h-16" />
+       <img src={Logo} alt="SAIL Logo" className="h-16" />
+
 
       </div>
       <h2 className="text-xl font-semibold mb-4 text-center">Log In</h2>
