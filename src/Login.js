@@ -11,7 +11,7 @@ const Login = ({ onLogin, onSwitch }) => {
   return (
     <div className="bg-white p-6 rounded shadow-md w-96">
       <div className="flex justify-center mb-4">
-        <img src="https://upload.wikimedia.org/wikipedia/en/3/3b/SAIL_Logo.svg" alt="SAIL Logo" className="h-16" />
+        <img src="C:\Users\KIIT\Desktop\transformer-project\frontend\image\Steel_Authority_of_India_logo.svg.png" alt="SAIL Logo" className="h-16" />
       </div>
       <h2 className="text-xl font-semibold mb-4 text-center">Log In</h2>
       <form onSubmit={handleSubmit} className="space-y-3">
