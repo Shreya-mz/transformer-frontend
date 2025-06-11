@@ -15,11 +15,12 @@ const SignIn = ({ onSignIn }) => {
   return (
     <div className="center-box">
       <div style={{ textAlign: "center" }}>
-        <img
-          src="/Steel_Authority_of_India_logo.svg.png"
+      <img
+          src="../image/Steel_Authority_of_India_logo.svg.png"
           alt="SAIL Logo"
           style={{ width: "80px", marginBottom: "20px" }}
         />
+
       </div>
       <form onSubmit={handleSubmit}>
         <input
